@@ -1,9 +1,7 @@
 public class FindStringLength {
     public static void main(String[] args) {
-        //Find the length of strings
-        String s = "AbC";
-        int l = s.length();
-        System.out.println("The length of s is: " +l);
-
+        String myString = "ABCD";
+        int m = myString.length();
+        System.out.println("The length of myString: " +m);
     }
 }
